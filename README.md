@@ -27,6 +27,7 @@ git clone https://github.com/070ry/simple-markdown.git
 ```
 
 2. markdown.md内に内容を書きます。
+
 サポートされている構文
 - \*\*TEXT\*\*: **太字(Bold)**
 - \*TEXT\*: *斜体(Italic)*
