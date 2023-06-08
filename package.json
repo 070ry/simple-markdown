@@ -1,0 +1,7 @@
+{
+  "name": "md",
+  "main": "dist/main.js",
+  "dependencies": {
+    "marked": "^5.0.5"
+  }
+}

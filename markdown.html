@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Markdown Writer</title>
+<link rel="stylesheet" type="text/css" href="styles.css">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+<p>
+<h1 id="なんかできたMarkdown"><button class="copy-button" onclick="copy('なんかできたMarkdown')"><i class="material-icons">content_copy</i></button>なんかできたMarkdown</h1>
+<strong>特徴</strong>
+<li>何もなし</li>
+<li>ゴミ</li>
+<li>汚物</li>
+<li>シンプルすぎて使い物にならない</li>
+<li>初めてのオリジナルmd言語<em>(?)</em></li>
+<h2 id="需要"><button class="copy-button" onclick="copy('需要')"><i class="material-icons">content_copy</i></button>需要</h2>
+<li>なし</li>
+<h2 id="右にあるコピーボタンを使ってコピーしたurlに飛ぶとその場所のヘッダーに一気にスクロールするらしい"><button class="copy-button" onclick="copy('右にあるコピーボタンを使ってコピーしたurlに飛ぶとその場所のヘッダーに一気にスクロールするらしい')"><i class="material-icons">content_copy</i></button>右にあるコピーボタンを使ってコピーしたurlに飛ぶとその場所のヘッダーに一気にスクロールするらしい</h2>
+便利だよね...?
+<h1 id="test"><button class="copy-button" onclick="copy('test')"><i class="material-icons">content_copy</i></button>test</h1></p>
+
+<script>
+function copy(id) {
+window.location.hash = '';navigator.clipboard.writeText(`${window.location.href}${id}`)
+alert('コピーしました!');
+}</script>
+</body>
+</html>

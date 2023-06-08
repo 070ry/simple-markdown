@@ -1,0 +1,61 @@
+/* Markdown Style */
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    margin: 20px;
+    background-color: #f5f5f5;
+    color: #333333;
+}
+
+h1 {
+    border-bottom: 2px solid #333333;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #333333;
+}
+
+p {
+    text-align: justify;
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+
+li {
+    list-style-type: disc;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+strong {
+    font-weight: bold;
+}
+
+em {
+    font-style: italic;
+}
+
+.copy-container {
+    display: flex;
+    align-items: center;
+}
+
+.copy-button {
+    background-color: #00000000;
+    color: #2e2e2e;
+    border: none;
+    padding: 3px 3px;
+    cursor: pointer;
+    margin-left: 0px;
+}
+
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
