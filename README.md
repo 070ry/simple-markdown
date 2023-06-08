@@ -26,7 +26,14 @@
 git clone https://github.com/070ry/simple-markdown.git
 ```
 
-2. markdown.md内に内容を書きます。
+2. 依存関係をインストールする
+プロジェクトのルートディレクトリで
+```
+npm install
+```
+を実行してください。
+
+3. markdown.md内に内容を書きます。
 
 サポートされている構文
 - \*\*TEXT\*\*: **太字(Bold)**
@@ -35,10 +42,10 @@ git clone https://github.com/070ry/simple-markdown.git
 - \#\# Text: Header2
 - \-Text: List
 
-3. `markdown.md` があるディレクトリで
+4. プロジェクトのルートディレクトリで
 ```
 node dist/main
 ```
 もしくは`run.bat`か`run.sh`を実行する
 
-4. markdown.htmlに内容が書き出される。
+5. markdown.htmlに内容が書き出される。
